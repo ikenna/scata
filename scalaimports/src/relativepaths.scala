@@ -1,5 +1,5 @@
 
-package net{
+package net{                    // packaging with the curly brace syntax
   package ikenna{
     package books{
       class TomSawyer{
