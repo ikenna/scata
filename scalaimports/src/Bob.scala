@@ -17,13 +17,10 @@ package net{
 
       class Bob {
             def build() = {
-              println("Bob the Builder is building");
+              print("Bob the Builder is building ");
               println("rails for " +  new trains.Thomas().name)}   //Relative package paths - you don't need the absolute path -  net.ikenna.toys.trains.Thomas- like in Java
           }
       }
-
-
-
     }
   }
 }
