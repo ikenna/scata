@@ -8,8 +8,7 @@ package object trains {
 }
 
 
-package trains {
-  class Train4 {
+class Train4 {
     def moveTrain = move
   }
 
@@ -18,5 +17,4 @@ package trains {
       new Train4().moveTrain
     }
   }
-}
 
