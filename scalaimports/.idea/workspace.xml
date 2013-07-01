@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="764dbcee-cdc1-4494-9012-23dccd733867" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chainedpackages.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/topoffilesyntax.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/relativepaths.scala" afterPath="$PROJECT_DIR$/src/relativepaths.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/packageobjects.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/packagevisibility.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="scalaimports.iws" />
@@ -13,6 +12,8 @@
     <file path="/Bob.scala" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372664220428" ignored="false" />
     <file path="/chainedpackages.scala" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372664253803" ignored="false" />
     <file path="/topoffilesyntax.scala" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372664880869" ignored="false" />
+    <file path="/packageobjects.scala" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372665611170" ignored="false" />
+    <file path="/packagevisibility.scala" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372666439874" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,10 +95,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topoffilesyntax.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="topoffilesyntax.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/topoffilesyntax.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="333" selection-end="333" vertical-scroll-proportion="0.21327014">
+            <state line="15" column="1" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="packageobjects.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/packageobjects.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="18" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="packagevisibility.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/packagevisibility.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="99" selection-start="662" selection-end="662" vertical-scroll-proportion="0.67535543">
               <folding />
             </state>
           </provider>
@@ -126,6 +145,8 @@
         <option value="$PROJECT_DIR$/src/relativepaths.scala" />
         <option value="$PROJECT_DIR$/src/chainedpackages.scala" />
         <option value="$PROJECT_DIR$/src/topoffilesyntax.scala" />
+        <option value="$PROJECT_DIR$/src/packageobjects.scala" />
+        <option value="$PROJECT_DIR$/src/packagevisibility.scala" />
       </list>
     </option>
   </component>
@@ -192,24 +213,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scalaimports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scalaimports" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="relativepaths.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -235,29 +238,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration default="false" name="ToysTest" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="test.ToysTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="scalaimports" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.TestTrain5Again">
     <configuration default="false" name="ToysTest2" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -305,11 +286,55 @@
     <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="net.ikenna.toys.figures.train.*" />
+          <option name="PATTERN" value="net.ikenna.toys.trains.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="net.ikenna.toys.figures.train.Test" />
+      <option name="MAIN_CLASS_NAME" value="net.ikenna.toys.trains.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="scalaimports" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestTrain5" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.ikenna.toys.trains.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="net.ikenna.toys.trains.TestTrain5" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="scalaimports" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestTrain5Again" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.ikenna.toys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="net.ikenna.toys.TestTrain5Again" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -415,19 +440,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.ToysTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ToysTest2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Train" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.ToysTest2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Train" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestTrain5" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestTrain5Again" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Train" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Train" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ToysTest2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ToysTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestTrain5Again" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestTrain5" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Train" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -568,7 +594,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/topoffilesyntax.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="333" selection-end="333" vertical-scroll-proportion="0.21327014">
+        <state line="15" column="1" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/packageobjects.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/packagevisibility.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="99" selection-start="662" selection-end="662" vertical-scroll-proportion="0.67535543">
           <folding />
         </state>
       </provider>
