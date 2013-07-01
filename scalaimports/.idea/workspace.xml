@@ -11,8 +11,8 @@
     <file path="/chainedpackages.scala" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372664253803" ignored="false" />
     <file path="/topoffilesyntax.scala" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372664880869" ignored="false" />
     <file path="/packageobjects.scala" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372665611170" ignored="false" />
-    <file path="/packagevisibility.scala" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372666680445" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372666682104" ignored="false" />
+    <file path="/packagevisibility.scala" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372667080229" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372667081054" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,7 @@
       <file leaf-file-name="packagevisibility.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/packagevisibility.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="116" selection-start="793" selection-end="793" vertical-scroll-proportion="0.8886256">
+            <state line="28" column="115" selection-start="903" selection-end="903" vertical-scroll-proportion="0.99526066">
               <folding />
             </state>
           </provider>
@@ -237,29 +237,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.TestTrain5Again">
-    <configuration default="false" name="ToysTest2" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="test.ToysTest2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="scalaimports" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.TestSuperTrain5">
     <configuration default="false" name="Train" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -334,6 +312,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="net.ikenna.toys.TestTrain5Again" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="scalaimports" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestSuperTrain5" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.ikenna.toys.trains.supertrains.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="net.ikenna.toys.trains.supertrains.TestSuperTrain5" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -440,19 +440,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ToysTest2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Train" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestTrain5" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestTrain5Again" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Train" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestTrain5" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestTrain5Again" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestSuperTrain5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestTrain5Again" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestTrain5" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestSuperTrain5" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestTrain5Again" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestTrain5" />
         <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Train" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -501,7 +501,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -607,7 +607,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/packagevisibility.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="116" selection-start="793" selection-end="793" vertical-scroll-proportion="0.8886256">
+        <state line="28" column="115" selection-start="903" selection-end="903" vertical-scroll-proportion="0.99526066">
           <folding />
         </state>
       </provider>

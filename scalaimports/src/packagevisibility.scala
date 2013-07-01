@@ -17,10 +17,19 @@ package net.ikenna.toys.trains{
 package net.ikenna.toys{
   object TestTrain5Again{
     def main(args: Array[String]) {
-//      new trains.Train5().move()   // wouldnt compile. Shows Train5.move is not visible from toys
+//      new trains.Train5().move()   // wouldn't compile. Shows Train5.move is not visible from package toys
     }
   }
 }
 
+
+package net.ikenna.toys.trains.supertrains{
+object TestSuperTrain5{
+  def main(args: Array[String]) {
+          new net.ikenna.toys.trains.Train5().move   // Shows Train5.move is visible to sub-packages of toys. In other words
+          // it is Trains5.move is private from 'net' up to 'trains'. From 'trains' and its sup-packages, its public.
+  }
+}
+}
 
 /* Also note that in Scala, protected members are only visible to subclasses, not subclasses and packages as in java*/
