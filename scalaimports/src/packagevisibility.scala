@@ -21,3 +21,6 @@ package net.ikenna.toys{
     }
   }
 }
+
+
+/* Also note that in Scala, protected members are only visible to subclasses, not subclasses and packages as in java*/

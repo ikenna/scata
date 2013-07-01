@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="764dbcee-cdc1-4494-9012-23dccd733867" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/packageobjects.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/packagevisibility.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packagevisibility.scala" afterPath="$PROJECT_DIR$/src/packagevisibility.scala" />
     </list>
     <ignored path="scalaimports.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,7 +11,8 @@
     <file path="/chainedpackages.scala" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372664253803" ignored="false" />
     <file path="/topoffilesyntax.scala" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372664880869" ignored="false" />
     <file path="/packageobjects.scala" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372665611170" ignored="false" />
-    <file path="/packagevisibility.scala" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372666439874" ignored="false" />
+    <file path="/packagevisibility.scala" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372666680445" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="764dbcee-cdc1-4494-9012-23dccd733867" time="1372666682104" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,7 @@
       <file leaf-file-name="packagevisibility.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/packagevisibility.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="99" selection-start="662" selection-end="662" vertical-scroll-proportion="0.67535543">
+            <state line="25" column="116" selection-start="793" selection-end="793" vertical-scroll-proportion="0.8886256">
               <folding />
             </state>
           </provider>
@@ -608,7 +607,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/packagevisibility.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="99" selection-start="662" selection-end="662" vertical-scroll-proportion="0.67535543">
+        <state line="25" column="116" selection-start="793" selection-end="793" vertical-scroll-proportion="0.8886256">
           <folding />
         </state>
       </provider>
