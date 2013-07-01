@@ -1,5 +1,5 @@
 
-package net{                    // packaging with the curly brace syntax
+package net{                    // packaging with the curly brace syntax. Nested packages.
   package ikenna{
     package books{
       class TomSawyer{
@@ -24,7 +24,11 @@ package net{                    // packaging with the curly brace syntax
       class Bob {
             def build() = {
               print("Bob the Builder is building ");
-              println("rails for " +  new trains.Thomas().name)}   //Relative package paths - you don't need the absolute path -  net.ikenna.toys.trains.Thomas- like in Java
+              println("rails for " +  new trains.Thomas().name)}   //Relative package paths - you don't need the
+                                                                   // absolute path -  net.ikenna.toys.trains.Thomas- like in Java.
+                                                                   //Note that package in net.ikenna.toys.trains is visible to Bob.
+                                                                   //This would not be so if you were using chained packages.
+
           }
       }
     }
